@@ -8,7 +8,7 @@ const getClienteId = async () => {
     if(id === null){
         window.location.href= "/screens/error.html";
     }
- 
+  
     const nombre = document.querySelector("[data-nombre]");
     const email = document.querySelector("[data-email]");
    
